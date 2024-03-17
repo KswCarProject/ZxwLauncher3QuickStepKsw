@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.folder.Folder xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.android.launcher3.folder.FolderPagedView android:id="@+id/folder_content" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" launcher:pageIndicator="@+id/folder_page_indicator"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/folder_footer" android:paddingLeft="12dp" android:paddingRight="12dp" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="48dp">
+        <com.android.launcher3.folder.FolderNameEditText android:textColor="?attr/folderTextColor" android:textColorHighlight="?android:attr/colorControlHighlight" android:textColorHint="?attr/folderHintColor" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/folder_name" android:background="@android:color/transparent" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/folder_hint_text" android:singleLine="true" android:layout_weight="1" android:imeOptions="flagNoExtractUi" style="@style/TextHeadline"/>
+        <com.android.launcher3.pageindicators.PageIndicatorDots android:layout_gravity="center_vertical" android:id="@+id/folder_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="1dp"/>
+    </LinearLayout>
+</com.android.launcher3.folder.Folder>

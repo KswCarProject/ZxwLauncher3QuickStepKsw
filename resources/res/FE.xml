@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <resolve xmlns:ns1="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns1:container="-101" xmlns:ns2="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns2:screen="0" xmlns:ns3="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns3:x="0" xmlns:ns4="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns4:y="0">
+        <favorite xmlns:ns5="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns5:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.CATEGORY_TEST;component=com.google.android.apps.nexuslauncher.tests/com.android.launcher3.testcomponent.BaseTestingActivity;end"/>
+    </resolve>
+</favorites>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HomeSettings.CategoryStyle">
+        <item name="allowDividerAbove">@bool/home_settings_allow_divider</item>
+        <item name="allowDividerBelow">@bool/home_settings_allow_divider</item>
+        <item name="iconSpaceReserved">@bool/home_settings_icon_space_reserved</item>
+    </style>
+    <style name="HomeSettings.CategoryTitle">
+        <item name="android:fontFamily">google-sans-text-medium</item>
+    </style>
+    <style name="HomeSettings.CollapsedToolbarTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">google-sans</item>
+    </style>
+    <style name="HomeSettings.CollapsingToolbar">
+        <item name="colorAccent">@color/home_settings_header_accent</item>
+        <item name="colorPrimary">@color/home_settings_header_expanded</item>
+        <item name="elevationOverlayColor">?attr/colorPrimary</item>
+        <item name="elevationOverlayEnabled">true</item>
+    </style>
+    <style name="HomeSettings.ExpandedToolbarTitle">
+        <item name="android:textSize">36sp</item>
+    </style>
+    <style name="HomeSettings.PreferenceScreenStyle">
+        <item name="iconSpaceReserved">@bool/home_settings_icon_space_reserved</item>
+    </style>
+    <style name="HomeSettings.PreferenceStyle">
+        <item name="iconSpaceReserved">@bool/home_settings_icon_space_reserved</item>
+    </style>
+    <style name="HomeSettings.PreferenceTheme">
+        <item name="android:fontFamily">google-sans-text</item>
+        <item name="preferenceCategoryStyle">@style/HomeSettings.CategoryStyle</item>
+        <item name="preferenceCategoryTitleTextAppearance">@style/HomeSettings.CategoryTitle</item>
+        <item name="preferenceFragmentCompatStyle">@style/HomeSettings.FragmentCompatStyle</item>
+        <item name="preferenceScreenStyle">@style/HomeSettings.PreferenceScreenStyle</item>
+        <item name="preferenceStyle">@style/HomeSettings.PreferenceStyle</item>
+        <item name="switchPreferenceStyle">@style/HomeSettings.SwitchPreferenceStyle</item>
+    </style>
+    <style name="HomeSettings.PreferenceTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">google-sans</item>
+    </style>
+    <style name="HomeSettings.SwitchPreferenceStyle">
+        <item name="iconSpaceReserved">@bool/home_settings_icon_space_reserved</item>
+    </style>
+    <style name="HomeSettings.SwitchStyle">
+        <item name="android:thumb">@drawable/home_settings_switch_thumb</item>
+        <item name="android:track">@drawable/home_settings_switch_track</item>
+        <item name="android:switchMinWidth">52dp</item>
+    </style>
+    <style name="HomeSettings.Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textAppearanceListItem">@style/HomeSettings.PreferenceTitle</item>
+        <item name="android:listPreferredItemPaddingStart">24dp</item>
+        <item name="android:listPreferredItemPaddingEnd">16dp</item>
+        <item name="android:switchStyle">@style/HomeSettings.SwitchStyle</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="preferenceTheme">@style/HomeSettings.PreferenceTheme</item>
+    </style>
+</resources>

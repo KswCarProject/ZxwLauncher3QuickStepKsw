@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.systemui.shared.rotation.FloatingRotationButtonView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/rotate_suggestion" android:visibility="invisible" android:layout_width="@dimen/floating_rotation_button_diameter" android:layout_height="@dimen/floating_rotation_button_diameter" android:scaleType="center" android:paddingStart="@dimen/navigation_key_padding" android:paddingEnd="@dimen/navigation_key_padding"/>
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.views.TaskMenuViewWithArrow xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/task_menu_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+    <LinearLayout android:orientation="vertical" android:id="@+id/menu_option_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:showDividers="middle"/>
+</com.android.quickstep.views.TaskMenuViewWithArrow>

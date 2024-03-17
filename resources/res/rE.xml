@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.LauncherRootView xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/launcher" android:background="#000000" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.launcher3.dragndrop.DragLayer android:id="@+id/drag_layer" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no">
+        <com.android.launcher3.views.AccessibilityActionsView android:id="@+id/accc" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/home_screen"/>
+        <com.android.launcher3.Workspace android:theme="@style/HomeScreenElementTheme" android:layout_gravity="center" android:id="@+id/workspace" android:background="#000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" launcher:pageIndicator="@+id/page_indicator"/>
+        <include android:id="@+id/hotseat" android:visibility="gone" layout="@layout/hotseat"/>
+        <com.szchoiceway.view.CustomerView android:id="@+id/zxw_launcher" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:id="@+id/cover" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.android.launcher3.pageindicators.WorkspacePageIndicator android:theme="@style/HomeScreenElementTheme" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/page_indicator" android:layout_width="match_parent" android:layout_height="@dimen/workspace_page_indicator_height"/>
+        <include android:id="@+id/drop_target_bar" layout="@layout/drop_target_bar"/>
+        <com.android.launcher3.views.ScrimView android:id="@+id/scrim_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include android:id="@+id/apps_view" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/all_apps"/>
+        <include android:id="@+id/overview_panel" layout="@layout/overview_panel"/>
+    </com.android.launcher3.dragndrop.DragLayer>
+</com.android.launcher3.LauncherRootView>

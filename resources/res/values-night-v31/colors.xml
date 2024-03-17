@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="all_apps_button_bg_color">@android:color/hint_foreground_dark</color>
+    <color name="all_apps_button_color_1">@android:color/sliding_tab_text_color_active</color>
+    <color name="all_apps_button_color_3">@android:color/search_url_text_pressed</color>
+    <color name="all_apps_button_color_4">@android:color/kg_multi_user_text_active</color>
+    <color name="home_settings_header_accent">@android:color/search_url_text_pressed</color>
+    <color name="home_settings_header_collapsed">@android:color/dim_foreground_dark_inverse_disabled</color>
+    <color name="home_settings_header_expanded">@android:color/dim_foreground_light</color>
+    <color name="home_settings_thumb_off_color">@android:color/link_text_dark</color>
+    <color name="home_settings_track_off_color">@android:color/dim_foreground_dark_inverse_disabled</color>
+    <color name="home_settings_track_on_color">@android:color/facelock_spotlight_mask</color>
+</resources>

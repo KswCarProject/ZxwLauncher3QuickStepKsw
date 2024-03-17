@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:duration="2166" android:repeatCount="5">
+    <propertyValuesHolder android:valueType="floatType" android:propertyName="progress">
+        <keyframe android:value="1f" android:fraction="0"/>
+        <keyframe android:value="1f" android:fraction="0.246"/>
+        <keyframe android:value="0.9738f" android:interpolator="@interpolator/disco_bounce" android:fraction="0.423"/>
+        <keyframe android:value="1f" android:interpolator="@interpolator/disco_bounce" android:fraction="0.754"/>
+        <keyframe android:value="1f" android:fraction="1"/>
+    </propertyValuesHolder>
+</objectAnimator>

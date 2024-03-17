@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" class="com.android.launcher3.graphics.LauncherPreviewRenderer$LauncherPreviewLayout">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.android.launcher3.CellLayout android:theme="@style/HomeScreenElementTheme" android:id="@+id/workspace" android:layout_width="0dp" android:layout_height="0dp" launcher:containerType="0" launcher:layout_constraintBottom_toBottomOf="0" launcher:layout_constraintEnd_toStartOf="@+id/workspace_right" launcher:layout_constraintStart_toStartOf="0" launcher:layout_constraintTop_toTopOf="0" launcher:pageIndicator="@+id/page_indicator"/>
+        <com.android.launcher3.CellLayout android:theme="@style/HomeScreenElementTheme" android:id="@+id/workspace_right" android:layout_width="0dp" android:layout_height="0dp" launcher:containerType="0" launcher:layout_constraintBottom_toBottomOf="0" launcher:layout_constraintEnd_toEndOf="0" launcher:layout_constraintStart_toEndOf="@+id/workspace" launcher:layout_constraintTop_toTopOf="0" launcher:pageIndicator="@+id/page_indicator"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@+id/hotseat" layout="@layout/hotseat"/>
+</view>

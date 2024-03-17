@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.views.OverviewActionsView xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/action_buttons" android:layout_width="match_parent" android:layout_height="@dimen/overview_actions_height">
+        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+        <Button android:theme="@style/ThemeControlHighlightWorkspaceColor" android:id="@+id/action_screenshot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_screenshot" android:drawableStart="@drawable/ic_screenshot" style="@style/OverviewActionButton"/>
+        <Space android:id="@+id/action_split_space" android:visibility="gone" android:layout_width="@dimen/overview_actions_button_spacing" android:layout_height="1dp"/>
+        <Button android:theme="@style/ThemeControlHighlightWorkspaceColor" android:id="@+id/action_split" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_split" style="@style/OverviewActionButton"/>
+        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+        <Space android:id="@+id/oav_three_button_space" android:visibility="gone" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+    </LinearLayout>
+</com.android.quickstep.views.OverviewActionsView>

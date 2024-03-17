@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" class="com.android.launcher3.graphics.LauncherPreviewRenderer$LauncherPreviewLayout">
+    <com.android.launcher3.CellLayout android:theme="@style/HomeScreenElementTheme" android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/workspace" android:layout_width="match_parent" android:layout_height="match_parent" launcher:containerType="0" launcher:pageIndicator="@+id/page_indicator"/>
+    <include android:id="@+id/hotseat" layout="@layout/hotseat"/>
+</view>

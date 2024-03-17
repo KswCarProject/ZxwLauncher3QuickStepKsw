@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="all_apps_button_bg_color">#2e3132</color>
+    <color name="all_apps_button_color_1">#33b9db</color>
+    <color name="all_apps_button_color_2">#effbff</color>
+    <color name="all_apps_button_color_3">#b1ebff</color>
+    <color name="all_apps_button_color_4">#dee0ff</color>
+    <color name="all_set_page_background">#ff000000</color>
+    <color name="gesture_tutorial_back_arrow_color">#99000000</color>
+    <color name="gesture_tutorial_fake_wallpaper_color">#000000</color>
+    <color name="mock_webpage_url_bar">#202124</color>
+    <color name="mock_webpage_url_bar_item">#3c4043</color>
+</resources>

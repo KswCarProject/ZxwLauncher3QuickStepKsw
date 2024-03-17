@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <resolve xmlns:ns1="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns1:container="-101" xmlns:ns2="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns2:screen="0" xmlns:ns3="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns3:x="0" xmlns:ns4="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns4:y="0">
+        <favorite xmlns:ns5="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns5:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_EMAIL;end"/>
+        <favorite xmlns:ns6="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns6:uri="mailto:"/>
+    </resolve>
+    <resolve xmlns:ns7="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns7:container="-101" xmlns:ns8="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns8:screen="1" xmlns:ns9="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns9:x="1" xmlns:ns10="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns10:y="0">
+        <favorite xmlns:ns11="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns11:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_CALENDAR;end"/>
+    </resolve>
+    <resolve xmlns:ns12="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns12:container="-101" xmlns:ns13="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns13:screen="2" xmlns:ns14="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns14:x="2" xmlns:ns15="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns15:y="0">
+        <favorite xmlns:ns16="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns16:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_GALLERY;end"/>
+        <favorite xmlns:ns17="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns17:uri="#Intent;type=images/*;end"/>
+    </resolve>
+    <resolve xmlns:ns18="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns18:container="-101" xmlns:ns19="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns19:screen="3" xmlns:ns20="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns20:x="3" xmlns:ns21="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns21:y="0">
+        <favorite xmlns:ns22="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns22:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_MARKET;end"/>
+        <favorite xmlns:ns23="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns23:uri="market://details?id=com.android.launcher"/>
+    </resolve>
+    <resolve xmlns:ns24="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns24:container="-101" xmlns:ns25="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns25:screen="4" xmlns:ns26="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns26:x="4" xmlns:ns27="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns27:y="0">
+        <favorite xmlns:ns28="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns28:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_BROWSER;end"/>
+        <favorite xmlns:ns29="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns29:uri="http://www.example.com/"/>
+    </resolve>
+    <resolve xmlns:ns30="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns30:container="-101" xmlns:ns31="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns31:screen="5" xmlns:ns32="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns32:x="5" xmlns:ns33="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns33:y="0">
+        <favorite xmlns:ns34="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns34:uri="#Intent;action=android.media.action.STILL_IMAGE_CAMERA;end"/>
+        <favorite xmlns:ns35="http://schemas.android.com/apk/res-auto/com.android.launcher3" ns35:uri="#Intent;action=android.intent.action.CAMERA_BUTTON;end"/>
+    </resolve>
+</favorites>

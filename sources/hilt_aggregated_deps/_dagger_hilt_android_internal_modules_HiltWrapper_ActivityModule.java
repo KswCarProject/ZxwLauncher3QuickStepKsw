@@ -1,0 +1,4 @@
+package hilt_aggregated_deps;
+
+public class _dagger_hilt_android_internal_modules_HiltWrapper_ActivityModule {
+}

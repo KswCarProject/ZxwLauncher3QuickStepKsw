@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.Hotseat xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/HomeScreenElementTheme" android:id="@+id/hotseat" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" launcher:containerType="1"/>

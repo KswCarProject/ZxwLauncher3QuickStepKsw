@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="folder_dot_color">@android:color/keyguard_avatar_frame_color</color>
+    <color name="folder_hint_text_color_dark">@android:color/lighter_gray</color>
+    <color name="folder_hint_text_color_light">@android:color/bright_foreground_dark_disabled</color>
+    <color name="folder_pagination_color_dark">@android:color/kg_multi_user_text_active</color>
+    <color name="folder_pagination_color_light">@android:color/keyguard_text_color_unlock</color>
+    <color name="home_settings_header_accent">@android:color/keyguard_text_color_unlock</color>
+    <color name="home_settings_header_collapsed">@android:color/bright_foreground_light_disabled</color>
+    <color name="home_settings_header_expanded">@android:color/bright_foreground_dark_disabled</color>
+    <color name="home_settings_state_off_color">@android:color/kg_multi_user_text_active</color>
+    <color name="home_settings_state_on_color">@android:color/search_url_text_pressed</color>
+    <color name="home_settings_thumb_off_color">@android:color/highlighted_text_dark</color>
+    <color name="home_settings_track_off_color">@android:color/input_method_navigation_guard</color>
+    <color name="home_settings_track_on_color">@android:color/keyguard_text_color_unlock</color>
+    <color name="popup_color_neutral_dark">@android:color/dim_foreground_light_disabled</color>
+    <color name="popup_color_primary_dark">@android:color/perms_dangerous_grp_color</color>
+    <color name="popup_color_primary_light">@android:color/lockscreen_owner_info</color>
+    <color name="popup_color_secondary_dark">@android:color/dim_foreground_light</color>
+    <color name="popup_color_secondary_light">@android:color/highlighted_text_dark</color>
+    <color name="popup_color_tertiary_dark">@android:color/lighter_gray</color>
+    <color name="popup_color_tertiary_light">@android:color/link_text_dark</color>
+    <color name="popup_notification_dot_dark">@android:color/lock_pattern_view_error_color</color>
+    <color name="popup_notification_dot_light">@android:color/search_url_text_pressed</color>
+    <color name="text_color_primary_dark">@android:color/bright_foreground_dark_disabled</color>
+    <color name="text_color_secondary_dark">@android:color/highlighted_text_light</color>
+    <color name="text_color_tertiary_dark">@android:color/link_text_light</color>
+    <color name="wallpaper_popup_scrim">@android:color/dim_foreground_light</color>
+    <color name="workspace_accent_color_dark">@android:color/lock_pattern_view_error_color</color>
+    <color name="workspace_accent_color_light">@android:color/search_url_text_pressed</color>
+    <color name="workspace_text_color_dark">@android:color/dim_foreground_light_disabled</color>
+    <color name="workspace_text_color_light">@android:color/bright_foreground_dark</color>
+</resources>

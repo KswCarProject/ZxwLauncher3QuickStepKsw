@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.views.ClearAllButton xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="14sp" android:textColor="?android:attr/textColorPrimary" android:id="@+id/clear_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recents_clear_all" style="@style/OverviewClearAllButton"/>

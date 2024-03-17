@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.taskbar.TaskbarEduView xmlns:priv-android="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="108dp">
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_horizontal" android:id="@+id/edu_view" android:background="@drawable/bg_rounded_corner_bottom_sheet" android:paddingTop="64dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="36dp">
+        <com.android.launcher3.taskbar.TaskbarEduPagedView android:id="@+id/content" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="378dp" launcher:layout_constraintTop_toTopOf="0" launcher:pageIndicator="@+id/content_page_indicator">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/page_switch_apps" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/taskbar_edu_switch_apps" style="@style/TextAppearance.TaskbarEdu.Title"/>
+                <ImageView android:layout_width="322dp" android:layout_height="282dp" android:layout_marginTop="16dp" android:src="@drawable/taskbar_edu_switch_apps"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/page_splitscreen" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/taskbar_edu_splitscreen" style="@style/TextAppearance.TaskbarEdu.Title"/>
+                <ImageView android:layout_width="322dp" android:layout_height="282dp" android:layout_marginTop="16dp" android:src="@drawable/taskbar_edu_splitscreen"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/page_stashing" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/taskbar_edu_stashing" style="@style/TextAppearance.TaskbarEdu.Title"/>
+                <ImageView android:layout_width="322dp" android:layout_height="282dp" android:layout_marginTop="16dp" android:src="@drawable/taskbar_edu_stashing"/>
+            </LinearLayout>
+        </com.android.launcher3.taskbar.TaskbarEduPagedView>
+        <Button android:textColor="?android:attr/textColorPrimary" android:id="@+id/edu_start_button" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginTop="32dp" android:layout_marginBottom="92dp" android:text="@string/taskbar_edu_close" launcher:layout_constraintBottom_toBottomOf="0" launcher:layout_constraintStart_toStartOf="0" launcher:layout_constraintTop_toBottomOf="@+id/content" style="@style/TaskbarEdu.Button.Close"/>
+        <com.android.launcher3.pageindicators.PageIndicatorDots android:id="@+id/content_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="1dp" launcher:layout_constraintBottom_toBottomOf="@+id/edu_start_button" launcher:layout_constraintEnd_toEndOf="0" launcher:layout_constraintStart_toStartOf="0" launcher:layout_constraintTop_toTopOf="@+id/edu_start_button"/>
+        <Button android:textColor="?unknown_attr_ref: 11200ef" android:id="@+id/edu_end_button" android:layout_width="wrap_content" android:layout_height="0dp" android:text="@string/taskbar_edu_next" launcher:layout_constraintBottom_toBottomOf="@+id/edu_start_button" launcher:layout_constraintEnd_toEndOf="0" launcher:layout_constraintTop_toTopOf="@+id/edu_start_button" style="@style/TaskbarEdu.Button.Next"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.android.launcher3.taskbar.TaskbarEduView>
